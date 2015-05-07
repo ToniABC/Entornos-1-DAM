@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>50</y>
+      <w>410</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>
+Dispositivo
+
+--
+
+#nombre: String
+#marca: String
+#precio: String
+
+--
+
++Dispositivo(name: String, brand: String, price: String)
+-toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>380</y>
+      <w>160</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>
+Movil
+
+--
+
+#numero: int
+
+--
+
+-toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>380</y>
+      <w>160</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>
+Ordenador
+
+--
+
+#numero: int
+
+--
+
+-toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>250</y>
+      <w>150</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;70.0;10.0;70.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>250</y>
+      <w>160</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;140.0;70.0;140.0;130.0</additional_attributes>
+  </element>
+</diagram>
